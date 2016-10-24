@@ -1,0 +1,58 @@
+html {
+
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.cards {
+  margin: 0 0 .7rem;
+  padding: 0.5em 0 0;
+  list-style-type: none;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.cards li {
+  display: inline-block;
+  text-align: center;
+  background-color: #d05c2e;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  font-size: 1.125rem;
+  border:
+}
+
+
+.cards:hover {
+  background-color: #a63f38;
+  text-decoration: none;
+}
+
+img {
+  width: 80px;
+}
+
+header {
+  background-color: #d05c2e;
+  font-size: 2rem;
+}
+
+nav {
+  background-color: #d05c2e;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#fff;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
