@@ -1,5 +1,5 @@
 html {
-
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
@@ -8,24 +8,29 @@ html {
 
 .cards {
   margin: 0 0 .7rem;
-  padding: 0.5em 0 0;
+  padding: .5em 0 0;
   list-style-type: none;
   text-align: center;
   line-height: 1.5;
 }
 
 .cards li {
-  display: inline-block;
   text-align: center;
-  background-color: #d05c2e;
-  font-family: 'Merriweather', serif;
-  text-decoration: none;
+  font-family: Merriweather, serif;
   font-size: 1.125rem;
-  border:
+  float: left;
+  width: 33.33%;
+  background-color: #d05c2e;
+  list-style-type: none;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
 
-.cards:hover {
+a:hover {
   background-color: #a63f38;
   text-decoration: none;
 }
@@ -39,14 +44,10 @@ header {
   font-size: 2rem;
 }
 
-nav {
-  background-color: #d05c2e;
-}
-
 h1 {
   text-align: center;
-  font-family: 'Merriweather', serif;
-  color:#fff;
+  font-family: Merriweather, serif;
+  color: #fff;
 }
 
 .left {
